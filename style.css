@@ -1,0 +1,26 @@
+body {
+    background: #282a36;
+}
+
+.keys {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    /* min-height: 100vh; */
+    border: 13px 8px 2px 1px rgb(249, 246, 246);
+}
+
+button {
+    color: #223083;
+    background: #20fa7b;
+    padding: 32px;
+    font-size: 32px;
+    font-weight: 700;
+    cursor: pointer;
+    border-width: 10px;
+    border-color:  red;
+    outline: none;
+    box-shadow: 8px 4px 0px rgb(255,255,255);
+}
