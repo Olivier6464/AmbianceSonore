@@ -7,7 +7,7 @@
 
 const joue = (e) => {
        console.log(e.target)
-       const audio = document.querySelector(`audio[name="${e.target.name}"]`)
+       const audio = document.querySelector(`audio[name="${e.target.src}"]`)
        if (!audio) return
        audio.play()
 
