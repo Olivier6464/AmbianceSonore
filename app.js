@@ -4,6 +4,10 @@
 //        if (!audio) return
 //        audio.play()
 // }
+<script>
+var audio = new Audio("https://raw.githubusercontent.com/USERNAME/REPOSITORY/BRANCH/Audio.mp3")
+audio.play()
+</script>
 
 const joue = (e) => {
        console.log(e.target)
